@@ -36,7 +36,7 @@ def load_file(filename):
             taxi = line.split(",")
             taxis.append(taxi)
     except:
-        print("no")
+        print("not")
     return taxis
 
 
